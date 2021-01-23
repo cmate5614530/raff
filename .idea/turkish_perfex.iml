@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/2checkout/2checkout-php" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/authorizenet/authorizenet" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/bainternet/php-hooks" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/braintree/braintree_php" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/clue/stream-filter" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/cocur/slugify" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/erusev/parsedown" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/illuminate/container" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/illuminate/contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/illuminate/database" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/illuminate/events" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/illuminate/pagination" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/illuminate/support" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/instamojo/instamojo-php" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/kylekatarnls/update-helper" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/moneyphp/money" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/neitanod/forceutf8" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/nuovo/spreadsheet-reader" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/omnipay/authorizenet" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/omnipay/braintree" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/omnipay/common" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/omnipay/mollie" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/omnipay/paypal" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/paragonie/sodium_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/paypal/paypal-checkout-sdk" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/paypal/paypalhttp" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/php-http/discovery" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/php-http/guzzle6-adapter" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/php-http/httplug" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/php-http/message" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/php-http/message-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/php-http/promise" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/phpmailer/phpmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/pusher/pusher-php-server" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/stripe/stripe-php" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/studio-42/elfinder" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/symfony/polyfill-php70" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/tecnickcom/tcpdf" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/twilio/sdk" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/willdurand/email-reply-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/xemlock/htmlpurifier-html5" />
+      <excludeFolder url="file://$MODULE_DIR$/application/vendor/zbateson/mail-mime-parser" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
