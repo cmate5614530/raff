@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="967b1a9e-a87f-4e6e-ba88-6d40f663c837" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/app-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/app-config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/Production.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/Production.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/Warehouses.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/Warehouses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/language/english/english_lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/language/english/english_lang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/dashboard/widgets/finance_overview.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/dashboard/widgets/finance_overview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/warehouses/barcode_list/manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/warehouses/barcode_list/manage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/warehouses/transfers/manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/warehouses/transfers/manage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/warehouses/transfers/transfer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/warehouses/transfers/transfer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +128,7 @@
       <workItem from="1611465100300" duration="830000" />
       <workItem from="1611466017256" duration="884000" />
       <workItem from="1611480688010" duration="8051000" />
-      <workItem from="1611535903842" duration="17060000" />
+      <workItem from="1611535903842" duration="17914000" />
     </task>
     <servers />
   </component>
