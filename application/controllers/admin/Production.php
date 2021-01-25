@@ -93,6 +93,12 @@ class Production extends AdminController
     {
         if ($this->input->post() && $this->input->is_ajax_request()) {
             $data    = $this->input->post();
+
+            if(isset($_SESSION['production_qty']) && $data==$_SESSION['production_qty'])
+                return;
+
+            $_SESSION['production_qty']=$data;
+
             $success = $this->production_model->produced_qty($data);
             $message = '';
             if ($success) {

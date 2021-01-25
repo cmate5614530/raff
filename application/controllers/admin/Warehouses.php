@@ -194,7 +194,7 @@ class Warehouses extends AdminController
     }
 
     /*-------------------------Stock List---------------------------*/
-    public function stock_lists()
+    public function stock_lists() 
     {
     	if ($this->input->is_ajax_request()) {
             $this->app->get_table_data('stock_lists');
@@ -215,7 +215,7 @@ class Warehouses extends AdminController
 
         //  // Format the image SRC:  data:{mime};base64,{data};
         // $src = 'data:image/' . $type . ';base64,'.$imgData;
-        // $data['src'] = $src;
+        // $da  ta['src'] = $src;
         $this->load->view('admin/warehouses/stock_lists/manage', $data);
     }
 
@@ -223,14 +223,19 @@ class Warehouses extends AdminController
     {
         if ($this->input->post()) {
             $data = $this->input->post();
-            
+
             $folderPath = "uploads/stock_lists/";
             if (move_uploaded_file($_FILES["product_photo"]["tmp_name"], $folderPath . $_FILES["product_photo"]["name"])) {
                 $data['product_photo'] = $folderPath . $_FILES["product_photo"]["name"];
             }
             
             if ($data['stocklistId'] == '') {
-                
+
+                if(isset($_SESSION['stock_history']) && $data==$_SESSION['stock_history'])
+                    return;
+
+                $_SESSION['stock_history']=$data;
+
                 $success = $this->warehouses_model->stock_list_add($data);
                 $message = '';
                 if ($success == true) {
@@ -494,6 +499,16 @@ class Warehouses extends AdminController
         }
     }
 
+    public function check_duplicate_barcode()
+    {
+        $barcode_id = trim($this->input->post('barcode_id'));
+        $response    = [
+            'exists'  => (bool) total_rows(db_prefix() . 'barcode_list', ['barcode_id' => $barcode_id]) > 0,
+            'message' => _l('barcode_exists_info', '<b>' . $barcode_id . '</b>'),
+        ];
+        echo json_encode($response);
+    }
+
     public function barcode_list_delete($id)
     {
         if (!$id) {
@@ -559,6 +574,12 @@ class Warehouses extends AdminController
                 $data['pack_photo'] = $folderPath . $_FILES["pack_photo"]["name"];
             }
             if ($id == '') {
+
+                if(isset($_SESSION['packing_list_history']) && $data==$_SESSION['packing_list_history'])
+                    return;
+
+                $_SESSION['packing_list_history']=$data;
+
                 $id = $this->warehouses_model->add_packing_list($data);
                 
                 if ($id) {

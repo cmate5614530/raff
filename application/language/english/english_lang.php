@@ -3654,6 +3654,7 @@ $lang['new_stock_list'] = 'New Stock';
 $lang['edit_stock_list'] = 'Edit Stock';
 $lang['add_stock_list'] = 'Add Stock';
 $lang['product_exists_info'] = 'It looks that a product with code %s already exists, if you still want to create the product you can ignore this message.';
+$lang['barcode_exists_info'] = 'It looks that a barcode with code %s already exists. Please try with another one.';
 
 $lang['transfers'] = 'Transfers';
 $lang['transfer'] = 'Transfer';

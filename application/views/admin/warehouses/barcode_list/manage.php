@@ -42,7 +42,7 @@
 					<div class="col-md-12">
 
 						<?php echo render_input('barcode_id',_l('barcode_id'),'','number',array('placeholder'=>_l('barcode_id'))); ?>
-
+                        <div id="barcode_exists_info" class="hide"></div>
 						<?php echo render_select('products_code',$products,array('id','product_code'),_l('product_code')); ?>
 
                         <?php echo render_input('product_name',_l('product_name'),'','text',array('placeholder'=>_l('product_name'),'readonly' => true)); ?>
@@ -54,7 +54,7 @@
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal"><?php echo _l('close'); ?></button>
-				<button type="submit" class="btn btn-info"><?php echo _l('submit'); ?></button>
+				<button type="submit" id='submit' class="btn btn-info"><?php echo _l('submit'); ?></button>
 				<?php echo form_close(); ?>
 			</div>
 		</div>
@@ -115,6 +115,31 @@
                     });
                 });
             }
+            $('input[name="barcode_id"]').keyup(function () {
+                var barcode_id = $(this).val();
+                console.log('--barcode id line 120--', barcode_id)
+                var $barcodeExistsDiv = $('#barcode_exists_info');
+                if(barcode_id == '') {
+                    $barcodeExistsDiv.addClass('hide');
+                    return;
+                }
+
+                $.post(admin_url+'warehouses/check_duplicate_barcode', {barcode_id:barcode_id})
+                    .done(function(response) {
+                        if(response) {
+                            response = JSON.parse(response);
+                            if(response.exists == true) {
+                                $barcodeExistsDiv.removeClass('hide');
+                                $barcodeExistsDiv.html('<div class="info-block mbot15">'+response.message+'</div>');
+                                $('#submit').prop('disabled',true);
+
+                            } else {
+                                $barcodeExistsDiv.addClass('hide');
+                                $('#submit').prop('disabled',false);
+                            }
+                        }
+                    });
+            })
 
             $("select"). change(function(){
                 var productId = $(this). children("option:selected"). val();

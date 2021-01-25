@@ -7,7 +7,7 @@
             <div class="widget-dragger"></div>
             <div class="row home-summary">
                <?php 
-               if(has_permission('invoices','','view') || has_permission('invoices','','view_own') || has_permission('dashboard','','view') || get_option('allow_staff_view_invoices_assigned') == 1 && staff_has_assigned_invoices()){
+               if(has_permission('planning','','work_orders') || has_permission('invoices','','view_own') || has_permission('dashboard','','view') || get_option('allow_staff_view_invoices_assigned') == 1 && staff_has_assigned_invoices()){
                   ?>
                   <div class="col-md-6 col-lg-4 col-sm-6">
                      <div class="row">
@@ -21,7 +21,7 @@
                            $w_phase_percent_data = get_work_orders_percent_by_phase($w_phase['order_no']);
                         ?>
                            <div class="col-md-12 text-stats-wrapper">
-                              <a href="#" class="text-<?php echo proposal_status_color_class($w_phase['order_no'],true); ?> mbot15 inline-block">
+                              <a href="<?php echo admin_url('planning/work_orders_list'); ?>" class="text-<?php echo proposal_status_color_class($w_phase['order_no'],true); ?> mbot15 inline-block">
                                  <span class="_total bold"><?php echo $w_phase_percent_data['total_by_phase']; ?></span> <?php echo format_proposal_phase($w_phase,'',false); ?>
                               </a>
                            </div>
@@ -36,7 +36,7 @@
                      </div>
                   </div>
                   <?php } ?>
-                  <?php if(has_permission('estimates','','view') || has_permission('estimates','','view_own') || has_permission('dashboard','','view') || (get_option('allow_staff_view_estimates_assigned') == 1 && staff_has_assigned_estimates())){ ?>
+                  <?php if(has_permission('sales','','sale_order') || has_permission('estimates','','view_own') || has_permission('dashboard','','view') || (get_option('allow_staff_view_estimates_assigned') == 1 && staff_has_assigned_estimates())){ ?>
                   <div class="col-md-6 col-lg-4 col-sm-6">
                      <div class="row">
                         <div class="col-md-12 text-stats-wrapper">
@@ -48,7 +48,7 @@
                            $s_phase_percent_data = get_sale_orders_percent_by_phase($s_phase['order_no']);
                         ?>
                            <div class="col-md-12 text-stats-wrapper">
-                              <a href="#" class="text-<?php echo proposal_status_color_class($s_phase['order_no'],true); ?> mbot15 inline-block">
+                              <a href="<?php echo admin_url('sale/sale_order_list'); ?>" class="text-<?php echo proposal_status_color_class($s_phase['order_no'],true); ?> mbot15 inline-block">
                                  <span class="_total bold"><?php echo $s_phase_percent_data['total_by_phase']; ?></span> <?php echo format_proposal_phase($s_phase,'',false); ?>
                               </a>
                            </div>
@@ -63,7 +63,7 @@
                      </div>
                   </div>
                   <?php } ?>
-                  <?php if(has_permission('proposals','','view') || has_permission('proposals','','view_own') || has_permission('dashboard','','view') || get_option('allow_staff_view_proposals_assigned') == 1 && staff_has_assigned_proposals()){ ?>
+                  <?php if(has_permission('sale','','quotation/offer') || has_permission('proposals','','view_own') || has_permission('dashboard','','view') || get_option('allow_staff_view_proposals_assigned') == 1 && staff_has_assigned_proposals()){ ?>
                   <div class="col-md-12 col-sm-6 col-lg-4">
                      <div class="row">
                         <div class="col-md-12 text-stats-wrapper">
@@ -75,7 +75,7 @@
                            $q_phase_percent_data = get_proposals_percent_by_phase($q_phase['order_no']);
                         ?>
                            <div class="col-md-12 text-stats-wrapper">
-                              <a href="#" class="text-<?php echo proposal_status_color_class($q_phase['order_no'],true); ?> mbot15 inline-block">
+                              <a href="<?php echo admin_url('sale/quotation_list'); ?>" class="text-<?php echo proposal_status_color_class($q_phase['order_no'],true); ?> mbot15 inline-block">
                                  <span class="_total bold"><?php echo $q_phase_percent_data['total_by_phase']; ?></span> <?php echo format_proposal_phase($q_phase,'',false); ?>
                               </a>
                            </div>

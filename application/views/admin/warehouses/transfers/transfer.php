@@ -22,8 +22,8 @@
                             </div>
                             <div class="col-md-6">
                                 <?php 
-                                    $selected = (isset($transfer) ? $transfer->transaction_to : '');
-                                    echo render_select('transaction_to',$warehouse_list,array('id','warehouse_name'),_l('transaction_to'),$selected); 
+                                    //$selected = (isset($transfer) ? $transfer->transaction_to : '');
+                                    echo render_select('transaction_to',$warehouse_list,array('id','warehouse_name'),_l('transaction_to'));
                                     ?>
                             </div>
                         </div>
@@ -166,10 +166,13 @@
             e.preventDefault();
             $('#transfer_submit_btn').prop('disabled', true);
             var wId = $('#transaction_from').val();
+            var transaction_to = $('#transaction_to').val()
+
             var currentWarehouse = warehouses.filter(e => {
                 return e.warehouse_id == wId;
             })
-            if(currentWarehouse[0]){
+            //console.log('transactionTo---', transaction_to); return
+            if(currentWarehouse[0] && transaction_to){
                 if($('#transaction_qty').val() > currentWarehouse[0].qty && currentWarehouse[0].order_no != 1)
                 {
                     alert('Overflowed Quantity from this Warehouse');

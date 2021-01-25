@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="967b1a9e-a87f-4e6e-ba88-6d40f663c837" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="967b1a9e-a87f-4e6e-ba88-6d40f663c837" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/app-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/app-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/admin/Production.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/Production.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/admin/Warehouses.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/Warehouses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/language/english/english_lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/language/english/english_lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/dashboard/widgets/finance_overview.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/dashboard/widgets/finance_overview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/warehouses/barcode_list/manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/warehouses/barcode_list/manage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/warehouses/transfers/manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/warehouses/transfers/manage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/warehouses/transfers/transfer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/warehouses/transfers/transfer.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,31 +22,17 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/application/composer.json</pharConfigPath>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin/Production.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1452">
-              <caret line="66" column="73" selection-start-line="66" selection-start-column="73" selection-end-line="66" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin/Settings.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="1c723329-c8ce-4091-b46d-4db43eb30fff" name="localhost" />
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -98,38 +96,29 @@
       <path value="$PROJECT_DIR$/application/vendor/authorizenet/authorizenet" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="242" />
-    <option name="y" value="138" />
-    <option name="width" value="1440" />
-    <option name="height" value="780" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
-    </panes>
+  <component name="ProjectId" id="1nTt9pJ0LcoifyqhbEYCleVQQDQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../democrm.movingwords.it" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -145,61 +134,100 @@
       <updated>1596163057282</updated>
       <workItem from="1596163061815" duration="125000" />
       <workItem from="1596894741367" duration="56000" />
+      <workItem from="1611425762147" duration="8620000" />
+      <workItem from="1611465100300" duration="830000" />
+      <workItem from="1611466017256" duration="884000" />
+      <workItem from="1611480688010" duration="8051000" />
+      <workItem from="1611535903842" duration="17060000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18603411" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Grunt " order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/system/core/Loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="233" column="20" selection-start-line="233" selection-start-column="20" selection-end-line="233" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Production.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="66" column="73" selection-start-line="66" selection-start-column="73" selection-end-line="66" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="552" y="180" key="#Deployment" timestamp="1611426545779">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="180" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1611426545779" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1611506110390">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611506110390" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1611548525901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611548525901" />
+    <state width="1881" height="85" key="GridCell.Tab.0.bottom" timestamp="1611548040510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="85" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611548040510" />
+    <state width="1881" height="85" key="GridCell.Tab.0.center" timestamp="1611548040509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="85" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611548040509" />
+    <state width="1881" height="85" key="GridCell.Tab.0.left" timestamp="1611548040509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="85" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611548040509" />
+    <state width="1881" height="85" key="GridCell.Tab.0.right" timestamp="1611548040509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="85" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611548040509" />
+    <state width="1881" height="85" key="GridCell.Tab.1.bottom" timestamp="1611548040510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="85" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611548040510" />
+    <state width="1881" height="85" key="GridCell.Tab.1.center" timestamp="1611548040510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="85" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611548040510" />
+    <state width="1881" height="85" key="GridCell.Tab.1.left" timestamp="1611548040510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="85" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611548040510" />
+    <state width="1881" height="85" key="GridCell.Tab.1.right" timestamp="1611548040510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="85" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611548040510" />
+    <state width="1881" height="85" key="GridCell.Tab.2.bottom" timestamp="1611548040510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="85" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611548040510" />
+    <state width="1881" height="85" key="GridCell.Tab.2.center" timestamp="1611548040510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="85" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611548040510" />
+    <state width="1881" height="85" key="GridCell.Tab.2.left" timestamp="1611548040510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="85" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611548040510" />
+    <state width="1881" height="85" key="GridCell.Tab.2.right" timestamp="1611548040510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="85" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611548040510" />
+    <state x="649" y="266" width="940" height="592" key="find.popup" timestamp="1611548938906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="649" y="266" width="940" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611548938906" />
+    <state x="895" y="396" key="ftp.server.browser" timestamp="1611426538452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="895" y="396" key="ftp.server.browser/0.0.1920.1040@0.0.1920.1040" timestamp="1611426538452" />
+    <state x="827" y="415" key="publish.login" timestamp="1611540213644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="827" y="415" key="publish.login/0.0.1920.1040@0.0.1920.1040" timestamp="1611540213644" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/admin/Production.php</url>
+          <line>96</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

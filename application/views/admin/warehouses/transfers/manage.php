@@ -32,6 +32,6 @@
 <?php init_tail(); ?>
 <script>
 	$(function(){
-		initDataTable('.table-transfers', window.location.href,[],[],[],[1, 'asc']);
+		initDataTable('.table-transfers', window.location.href,[],[],[],[1, 'desc']);
 	});
 </script>
